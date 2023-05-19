@@ -13,7 +13,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	height: 95vh;
 	margin: -20px 0 50px;
-	background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-image: linear-gradient(to left top, #f46eed, #ff5fbfd3, #ff5e91cb, #ff6c69e8, #f57d49d0, #f4774d, #f27452, #f07056, #f55e7fda, #e45cad, #b56cd7f8, #5f7ff2);
 	}
 	
 h1 {
@@ -186,7 +186,7 @@ input {
 }
 
 footer {
-    background-color: #222;
+    background-color: #000000;
     color: #fff;
     font-size: 14px;
     bottom: 0;

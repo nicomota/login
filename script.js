@@ -26,7 +26,7 @@ form.addEventListener("submit", (e) => {
 
 email.addEventListener("keyup", () => {
   if (validatorEmail(email.value) !== true) {
-	textEmail.textContent = "O formato do email deve ser EX: name@jeaholding.com.br"
+	textEmail.textContent = "O formato do email deve ser EX: name@gmail.com"
 } else {
     textEmail.textContent = "";
   }
