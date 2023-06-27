@@ -61,7 +61,7 @@ function logar(){
 
 	if(email =="teste@gmail.com" && password == "@Teste123"){
 		alert('Login Realizado');
-		location.href = "holding/dash/index.html";
+		location.href = "";
 	}else{
 		alert('Usuario ou senha incorretos');
 	}
