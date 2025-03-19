@@ -1,49 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login Mordor</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
-
+  <title>Login Mister Contador</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="main">
-<img src="/img/fred.png" class="fredLogin">
-<div class="container" id="container">
-	<div class="form-container sign-in-container">
-		<form action="#">
-			<h1>Login J&A Suporte</h1>
-			<div class="social-container">
-				<!-- <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a> -->
+		<div class="main">
+			<img src="/login/img/astronauta.png" class="fredLogin">
+			<div class="container" id="container">
+			  <div class="form sign-in-container">
+				<form onsubmit="logar(); return false;">
+				  <h1>Login Mister Contador</h1>
+				  <span style="margin-right: 100%;">Usuário:</span>
+				  <input type="email" id="" placeholder="E-mail" />
+				  <small id="textEmail"></small>
+				  <span  style="margin-right: 100%;">Senha:</span>
+				  <input type="password" id="" placeholder="Password" />
+				  <small id="textPassword"></small>
+				  <button type="submit">Login</button>
+				  <small id="textForm"></small>
+				  <p>Esqueceu sua senha?</p>
+				</form>
+			  </div>
+			  <div class="overlay-container">
+				<div class="overlay">
+				  <div class="overlay-panel overlay-right">
+					<img src="/img/Mister Icone.png" alt="" class="mordor">
+					<h1>Olá, bem vindo ao Mister Contador!</h1>
+					<p>Explore o futuro da Contabilidade: Deixe seu sucesso alcançar novas galáxias! 🚀</p>
+					<p>v.6.27.2</p>
+				  </div>
+				</div>
+			  </div>
 			</div>
-			<!-- <span>E-mail Fontes</span> -->
-			<span>E-mail: teste@gmail.com</span>
-			<span>Password: @Teste123</span>
-			<input type="email" id="email" placeholder="Email" />
-			<small id="textEmail"></small>
-			<input type="password" id="password" placeholder="Password" />
-			<small id="textPassword"></small>
-			<button type="submit" onclick="logar(); return false">Login</button>
-			<small id="textForm"></small>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-right">
-				<img src="/img/jea.png" alt="" class="mordor">
-				<h1>Olá, bem vindo ao nosso Dashboard!</h1>
-				<p>Introduza os seus dados Fontes e tenha acesso à nosso Dashboard!!</p>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-<footer>
-	<p>
-		Created with <i class="fa fa-heart"></i> by - Support Team @2023 
-	</p>
-</footer>
-  <script  src="./script.js"></script>
-
+		  </div>
+		  <!-- <footer class="footer">
+			<p>Criado pelo Time de Tecnologia Mister Contador <i class="fa fa-heart"></i></p>
+		  </footer> -->
+		  <script src="./script.js"></script>
 </body>
 </html>
